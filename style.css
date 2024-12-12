@@ -64,7 +64,16 @@ ul > li > a:hover {
           margin-block-start: 0;
 }
 
+.hover-read-me:hover {
+  color: var(--wp--preset--color--custom-primary) !important;
+}
+
 /* ================= > Header < ================= */
+
+.header-menu {
+  width: fit-content;
+  justify-self: center
+}
 
 .wp-block-site-title > a {
   text-decoration: none;
@@ -149,6 +158,14 @@ textarea {
   .wp-block-navigation__container {
     --navigation-layout-justification-setting: flex-start !important;
     --navigation-layout-justify: flex-start !important;
+  }
+
+  .header-menu {
+    width: max-content;
+  }
+
+  .header-columns {
+    justify-self: center !important;
   }
 }
 
