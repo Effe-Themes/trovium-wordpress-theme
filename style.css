@@ -102,6 +102,22 @@ ul > li > a:hover {
   color: var(--wp--preset--color--custom-text-color);
 }
 
+/* ================= > Footer < ================= */
+
+.copy > a {
+  text-decoration: none;
+}
+
+.copy > a > mark {
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+.copy > a > mark:hover {
+  color: inherit !important;
+}
+
 /* ================= > Blog < ================= */
 
 .wp-block-post-title > a:hover {
