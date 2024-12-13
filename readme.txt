@@ -9,6 +9,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Changelog ==
 
+= 1.0.1 =
+* Changed the header position
+
 = 1.0.0 =
 * Initial release
 
