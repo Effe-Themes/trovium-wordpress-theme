@@ -71,7 +71,7 @@ a.bg-color {
 	padding: 9px 12px;
 	text-decoration: none;
 	font-size: 14px;
-	background: #0758b3;
+	background: linear-gradient(135deg,rgb(8,185,162) 25%,rgb(109,81,224) 100%);
 	-webkit-transition: 0.3s;
 	-o-transition: 0.3s;
 	transition: 0.3s;
