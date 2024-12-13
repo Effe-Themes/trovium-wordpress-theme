@@ -67,7 +67,7 @@ if ( class_exists( 'WP_Customize_Section' ) ) {
 		public $background = '';
 		public $text_color = '';
 		protected function render() {
-			$background = ! empty( $this->background ) ? esc_attr( $this->background ) : '#0758b3';
+			$background = ! empty( $this->background ) ? esc_attr( $this->background ) : '#07E3D4';
 			$text_color       = ! empty( $this->text_color ) ? esc_attr( $this->text_color ) : '#fff';
 			?>
 			<li id="accordion-section-<?php echo esc_attr( $this->id ); ?>" class="trovium_upsell_section accordion-section control-section control-section-<?php echo esc_attr( $this->id ); ?> cannot-expand">
