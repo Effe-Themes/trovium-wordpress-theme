@@ -23,7 +23,8 @@ License: This Font Software is licensed under the SIL Open Font License, Version
 
 License: Creative Commons Zero (CC0)
 License URL: https://creativecommons.org/publicdomain/zero/1.0/
-Source: https://pxhere.com/pt/photo/805871
+Source: https://pxhere.com/pt/photo/1257296
+        https://pxhere.com/pt/photo/64563
 
 == Copyright ==
 
