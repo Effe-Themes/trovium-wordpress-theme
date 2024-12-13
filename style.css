@@ -71,8 +71,11 @@ ul > li > a:hover {
 /* ================= > Header < ================= */
 
 .header-menu {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
-  justify-self: center
+  -ms-grid-column-align: center;
+      justify-self: center
 }
 
 .wp-block-site-title > a {
@@ -154,7 +157,9 @@ textarea {
   }
 
   .hero-button {
-    justify-content: flex-start !important;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
   }
 }
 
@@ -177,16 +182,22 @@ textarea {
   }
 
   .header-menu {
+    width: -webkit-max-content;
+    width: -moz-max-content;
     width: max-content;
   }
 
   .header-columns {
-    justify-self: center !important;
+    -ms-grid-column-align: center !important;
+        justify-self: center !important;
   }
 }
 
 @media (max-width: 768px) {
   .wp-block-buttons {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
