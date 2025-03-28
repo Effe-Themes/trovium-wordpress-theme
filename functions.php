@@ -41,10 +41,6 @@ function trovium_enqueue_styles_and_scripts() {
 
   // Enqueue main stylesheet
 	wp_enqueue_style( 'style-css', get_stylesheet_uri() );
-
-  // Enqueue custom JavaScript
-	wp_enqueue_script( 'custom-script', get_template_directory_uri() . '/assets/js/script.js', array(), '1.0', true );
-
 }
 add_action( 'wp_enqueue_scripts', 'trovium_enqueue_styles_and_scripts' );
 
@@ -80,6 +76,13 @@ if ( class_exists( 'WP_Customize_Section' ) ) {
 		}
 	}
 }
+
+// Loads custom styles for the WordPress block editor  
+function load_editor_styles() {
+	add_theme_support('editor-styles');
+	add_editor_style('assets/css/editor-styles.css');
+}
+add_action('after_setup_theme', 'load_editor_styles');
 
 // Add Get Started
 require get_template_directory() . '/inc/get-started/get-started.php';
