@@ -9,6 +9,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Changelog ==
 
+= 1.1.1 =
+* Updated link of fixed message
+
 = 1.1.0 =
 * Updated fixed message
 
