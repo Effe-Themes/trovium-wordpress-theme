@@ -9,6 +9,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Changelog ==
 
+= 1.2.0 =
+* Removed popup
+
 = 1.1.1 =
 * Updated link of fixed message
 
