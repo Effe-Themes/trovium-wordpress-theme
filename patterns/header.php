@@ -7,15 +7,7 @@
  */
 ?>
 <!-- wp:group {"align":"full","className":"header-columns","style":{"spacing":{"padding":{"top":"var:preset|spacing|70","bottom":"var:preset|spacing|70"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull header-columns" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:group {"className":"trovium-fixed-message","layout":{"type":"constrained"}} -->
-<div class="wp-block-group trovium-fixed-message"><!-- wp:html -->
-<a href="https://effethemes.com/themes/trovium-wordpress-theme/" target="_blank">
-        Unlock the full potential of the Trovium Theme by upgrading to the premium version today!
-</a>
-<!-- /wp:html --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","orientation":"horizontal"}} -->
+<div class="wp-block-group alignfull header-columns" style="padding-top:var(--wp--preset--spacing--70);padding-bottom:var(--wp--preset--spacing--70)"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap","justifyContent":"space-between","orientation":"horizontal"}} -->
 <div class="wp-block-group"><!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
 <div class="wp-block-group"><!-- wp:site-logo {"width":64} /-->
 
