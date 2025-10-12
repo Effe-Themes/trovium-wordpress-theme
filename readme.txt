@@ -9,6 +9,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Changelog ==
 
+= 1.2.2 =
+* Updated admin notice
+
 = 1.2.1 =
 * Fix: Load theme textdomain at proper hook to prevent early translation loading notice
 
