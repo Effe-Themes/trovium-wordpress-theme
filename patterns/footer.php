@@ -12,14 +12,14 @@
 <div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"padding":{"top":"0","bottom":"0","right":"var:preset|spacing|70"}}}} -->
 <div class="wp-block-column" style="padding-top:0;padding-right:var(--wp--preset--spacing--70);padding-bottom:0"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:image {"width":"32px","sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logo.png" alt="<?php echo __('', 'trovium');?>" class="" style="width:32px"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/logo.png" alt="<?php echo __('', 'trovium');?>" style="width:32px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:site-title {"level":5} /--></div>
 <!-- /wp:group -->
 
-<!-- wp:paragraph -->
-<p><?php echo __('Driving innovation and success, one project at a time. Your journey starts here.', 'trovium');?></p>
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|cyan-bluish-gray"}}}},"textColor":"cyan-bluish-gray"} -->
+<p class="has-cyan-bluish-gray-color has-text-color has-link-color"><?php echo __('Driving innovation and success, one project at a time. Your journey starts here.', 'trovium');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"iconBackgroundColor":"custom-primary","iconBackgroundColorValue":"#1A66FF","className":"is-style-default"} -->

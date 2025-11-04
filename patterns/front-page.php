@@ -75,12 +75,12 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"layout":{"type":"default"}} -->
-<div class="wp-block-group"><!-- wp:paragraph -->
-<p><?php echo __('With a focus on creativity, strategy, and results, we help brands achieve their full potential. ', 'trovium');?></p>
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|cyan-bluish-gray"}}}},"textColor":"cyan-bluish-gray"} -->
+<p class="has-cyan-bluish-gray-color has-text-color has-link-color"><?php echo __('With a focus on creativity, strategy, and results, we help brands achieve their full potential. ', 'trovium');?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:paragraph -->
-<p><?php echo __('Our team is committed to delivering tailored solutions that drive growth, enhance visibility, and create meaningful connections with your audience. Let’s build the future of your business, together.', 'trovium');?></p>
+<!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"var:preset|color|cyan-bluish-gray"}}}},"textColor":"cyan-bluish-gray"} -->
+<p class="has-cyan-bluish-gray-color has-text-color has-link-color"><?php echo __('Our team is committed to delivering tailored solutions that drive growth, enhance visibility, and create meaningful connections with your audience. Let’s build the future of your business, together.', 'trovium');?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
@@ -115,7 +115,7 @@
 
 <!-- wp:column {"width":"50%"} -->
 <div class="wp-block-column" style="flex-basis:50%"><!-- wp:image {"sizeSlug":"large","linkDestination":"none","style":{"border":{"radius":"60px"}}} -->
-<figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/about-img-1024x683.jpg" alt="<?php echo __('', 'trovium');?>" class="" style="border-radius:60px"/></figure>
+<figure class="wp-block-image size-large has-custom-border"><img src="<?php echo esc_url( get_stylesheet_directory_uri() ); ?>/assets/images/about-img-1024x683.jpg" alt="<?php echo __('', 'trovium');?>" style="border-radius:60px"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
@@ -143,7 +143,7 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|30"}},"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:post-title {"level":6,"isLink":true} /-->
 
-<!-- wp:post-date /--></div>
+<!-- wp:post-date {"style":{"elements":{"link":{"color":{"text":"var:preset|color|cyan-bluish-gray"}}}},"textColor":"cyan-bluish-gray"} /--></div>
 <!-- /wp:group -->
 
 <!-- wp:separator {"opacity":"css","className":"is-style-wide","style":{"spacing":{"margin":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}}} -->
@@ -175,32 +175,32 @@
 <!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"},"blockGap":"0"},"border":{"radius":"40px","width":"1px"}},"borderColor":"custom-primary","layout":{"type":"default"}} -->
 <div class="wp-block-group has-border-color has-custom-primary-border-color" style="border-width:1px;border-radius:40px;margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50);padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:details {"showContent":true,"style":{"spacing":{"blockGap":"var:preset|spacing|50"}}} -->
-<details class="wp-block-details" open><summary>What is the Eclipsion theme?</summary><!-- wp:paragraph {"placeholder":"Type / to add a hidden block"} -->
-<p><?php echo __('The Eclipsion theme is a versatile and professional WordPress block theme designed for a wide range of uses, including corporate websites, blogs, portfolios, and online stores. It features a modern, dark aesthetic and is fully compatible with popular page builders like Elementor, Gutenberg, and WooCommerce.', 'trovium');?></p>
+<details class="wp-block-details" open><summary>What is the Eclipsion theme?</summary><!-- wp:paragraph {"placeholder":"Type / to add a hidden block","style":{"elements":{"link":{"color":{"text":"var:preset|color|cyan-bluish-gray"}}}},"textColor":"cyan-bluish-gray"} -->
+<p class="has-cyan-bluish-gray-color has-text-color has-link-color"><?php echo __('The Eclipsion theme is a versatile and professional WordPress block theme designed for a wide range of uses, including corporate websites, blogs, portfolios, and online stores. It features a modern, dark aesthetic and is fully compatible with popular page builders like Elementor, Gutenberg, and WooCommerce.', 'trovium');?></p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"},"blockGap":"0"},"border":{"radius":"40px","width":"1px"}},"borderColor":"custom-primary","layout":{"type":"default"}} -->
 <div class="wp-block-group has-border-color has-custom-primary-border-color" style="border-width:1px;border-radius:40px;margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50);padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:details {"style":{"spacing":{"blockGap":"var:preset|spacing|50"}}} -->
-<details class="wp-block-details"><summary>What is the Eclipsion theme?</summary><!-- wp:paragraph {"placeholder":"Type / to add a hidden block"} -->
-<p><?php echo __('The Eclipsion theme is a versatile and professional WordPress block theme designed for a wide range of uses, including corporate websites, blogs, portfolios, and online stores. It features a modern, dark aesthetic and is fully compatible with popular page builders like Elementor, Gutenberg, and WooCommerce.', 'trovium');?></p>
+<details class="wp-block-details"><summary>What is the Eclipsion theme?</summary><!-- wp:paragraph {"placeholder":"Type / to add a hidden block","style":{"elements":{"link":{"color":{"text":"var:preset|color|cyan-bluish-gray"}}}},"textColor":"cyan-bluish-gray"} -->
+<p class="has-cyan-bluish-gray-color has-text-color has-link-color"><?php echo __('The Eclipsion theme is a versatile and professional WordPress block theme designed for a wide range of uses, including corporate websites, blogs, portfolios, and online stores. It features a modern, dark aesthetic and is fully compatible with popular page builders like Elementor, Gutenberg, and WooCommerce.', 'trovium');?></p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"},"blockGap":"0"},"border":{"radius":"40px","width":"1px"}},"borderColor":"custom-primary","layout":{"type":"default"}} -->
 <div class="wp-block-group has-border-color has-custom-primary-border-color" style="border-width:1px;border-radius:40px;margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50);padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:details {"style":{"spacing":{"blockGap":"var:preset|spacing|50"}}} -->
-<details class="wp-block-details"><summary>What is the Eclipsion theme?</summary><!-- wp:paragraph {"placeholder":"Type / to add a hidden block"} -->
-<p><?php echo __('The Eclipsion theme is a versatile and professional WordPress block theme designed for a wide range of uses, including corporate websites, blogs, portfolios, and online stores. It features a modern, dark aesthetic and is fully compatible with popular page builders like Elementor, Gutenberg, and WooCommerce.', 'trovium');?></p>
+<details class="wp-block-details"><summary>What is the Eclipsion theme?</summary><!-- wp:paragraph {"placeholder":"Type / to add a hidden block","style":{"elements":{"link":{"color":{"text":"var:preset|color|cyan-bluish-gray"}}}},"textColor":"cyan-bluish-gray"} -->
+<p class="has-cyan-bluish-gray-color has-text-color has-link-color"><?php echo __('The Eclipsion theme is a versatile and professional WordPress block theme designed for a wide range of uses, including corporate websites, blogs, portfolios, and online stores. It features a modern, dark aesthetic and is fully compatible with popular page builders like Elementor, Gutenberg, and WooCommerce.', 'trovium');?></p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details --></div>
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40","left":"var:preset|spacing|40","right":"var:preset|spacing|40"},"margin":{"top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"},"blockGap":"0"},"border":{"radius":"40px","width":"1px"}},"borderColor":"custom-primary","layout":{"type":"default"}} -->
 <div class="wp-block-group has-border-color has-custom-primary-border-color" style="border-width:1px;border-radius:40px;margin-top:var(--wp--preset--spacing--50);margin-bottom:var(--wp--preset--spacing--50);padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)"><!-- wp:details {"style":{"spacing":{"blockGap":"var:preset|spacing|50"}}} -->
-<details class="wp-block-details"><summary>What is the Eclipsion theme?</summary><!-- wp:paragraph {"placeholder":"Type / to add a hidden block"} -->
-<p><?php echo __('The Eclipsion theme is a versatile and professional WordPress block theme designed for a wide range of uses, including corporate websites, blogs, portfolios, and online stores. It features a modern, dark aesthetic and is fully compatible with popular page builders like Elementor, Gutenberg, and WooCommerce.', 'trovium');?></p>
+<details class="wp-block-details"><summary>What is the Eclipsion theme?</summary><!-- wp:paragraph {"placeholder":"Type / to add a hidden block","style":{"elements":{"link":{"color":{"text":"var:preset|color|cyan-bluish-gray"}}}},"textColor":"cyan-bluish-gray"} -->
+<p class="has-cyan-bluish-gray-color has-text-color has-link-color"><?php echo __('The Eclipsion theme is a versatile and professional WordPress block theme designed for a wide range of uses, including corporate websites, blogs, portfolios, and online stores. It features a modern, dark aesthetic and is fully compatible with popular page builders like Elementor, Gutenberg, and WooCommerce.', 'trovium');?></p>
 <!-- /wp:paragraph --></details>
 <!-- /wp:details --></div>
 <!-- /wp:group --></div>
